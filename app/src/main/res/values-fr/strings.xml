@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PowerHome</string>
+    <string name="hello">Bienvenue</string>
+
+
+    <!-- Page MDP oublié -->
+    <string name="forgot_password_title">Mot de passe oublié</string>
+    <string name="email_hint">Email</string>
+    <string name="validate_button">Valider</string>
+    <string name="back_to_login_button">Retour à la page de connexion</string>
+
+    <!-- Page Login -->
+    <string name="connexion_application">Connexion à l\'application</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="mot_de_passe_oublie">MOT DE PASSE OUBLIÉ ?</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="se_connecter_avec_google">Se connecter avec Google</string>
+    <string name="separer_ou">_____________ ou _____________</string>
+    <string name="ligne_separation">_________________________________________________</string>
+    <string name="nouvel_utilisateur">Nouvel utilisateur ? Inscrivez-vous</string>
+    <string name="toast_errorconnexion">Email ou Mot de passe erroné !!!! </string>
+    <string name="authen_reussi">Authentification réussite</string>
+
+
+    <!-- Page Menu Principal -->
+    <string name="menu_principal">Menu Principal</string>
+    <string name="liste_habitants">Liste des Résidents</string>
+    <string name="mon_habitat">Mon Habitat</string>
+    <string name="eco_citoyenne">Éco-citoyenne</string>
+    <string name="mon_profil">Mon Profil</string>
+    <string name="mes_preferences">Mes Préférences</string>
+
+    <!-- Page Inscription -->
+    <string name="inscription">Inscription</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="confirmer_mot_de_passe">Confirmer le mot de passe</string>
+    <string name="suivant">Suivant</string>
+    <string name="deja_inscrit">Déjà inscrit ? Se connecter</string>
+    <string name="erreur_mdp">Le mot de passe ne correspond pas</string>
+
+    <!-- Page Inscription 2 -->
+    <string name="etage">Étage</string>
+    <string name="surface">Surface</string>
+    <string name="retour">Retour</string>
+    <string name="remplir_champs">Remplissez tous les champs</string>
+
+    <!-- A propos -->
+    <string name="aboutTitle">"A propos de l’application"</string>
+    <string name="version">Version : 1.0</string>
+    <string name="developers">Développé par : Laksan, Christophe, AbdulHakim, Yohann</string>
+    <string name="close">Fermer</string>
+    <string name="copyright">© 2024</string>
+
+    <!-- Page Modifier Profil -->
+    <string name="modification_profil_title">Modifier le Profil</string>
+    <string name="nom_label">Nom :</string>
+    <string name="prenom_label">Prénom :</string>
+    <string name="email_label">Email :</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="confirm_button">Confirmer</string>
+
+    <!-- Page Mon habitat -->
+    <string name="MyHabitatTitle">Ma Consommation Habitat :</string>
+    <string name="Equipements">Équipements</string>
+    <string name="AddEquipement">Ajouter un équipement</string>
+    <string name="Reserver">Réserver un créneau</string>
+    <string name="selecttionDate">Veuillez sélectionner un créneau</string>
+    <string name="name">Nom : </string>
+
+    <!-- Page Notifs -->
+    <string name="mark_all_as_read">Tout marquer comme lu</string>
+    <string name="notification_1">Notification 1</string>
+    <string name="notification_2">Notification 2</string>
+    <string name="notification_3">Notification 3</string>
+    <string name="title_label">Titre :</string>
+    <string name="message_label">Message :</string>
+    <string name="database">Database</string>
+
+    <!-- Page Mes preferences -->
+    <string name="notifications">Notifications</string>
+    <string name="disable">Désactiver</string>
+    <string name="language">Langue</string>
+
+    <string-array name="languages">
+        <item>fr</item>
+        <item>en</item>
+    </string-array>
+
+    <string name="save">Enregistrer</string>
+
+    <!-- Page Mon profil -->
+    <string name="modifier_profil">Modifier le Profil</string>
+    <string name="deconnexion">Déconnexion</string>
+
+    <!-- Page Habitat Item -->
+    <string name="nom_et_prenom">Nom et prénom</string>
+    <string name="x_equipements">X équipements</string>
+
+    <!-- Page Mon Habitat Item -->
+    <string name="machine_name">Nom machine</string>
+    <string name="reference">Référence: </string>
+
+    <!-- Nav Header -->
+    <string name="connected">Connecté</string>
+
+    <!-- Page Ajouter Appareil -->
+    <string name="ajout_appareil">Ajouter un Appareil</string>
+    <string name="watt">Watt</string>
+    <string name="select_appliance">Sélectionner un Appareil</string>
+    <string name="valider">Valider</string>
+
+    <string-array name="Appareil">
+        <item>Machine a laver</item>
+        <item>Aspirateur</item>
+        <item>Climatiseur</item>
+        <item>Fer a repasser</item>
+    </string-array>
+
+    <!-- Page Ajouter Appareil -->
+    <string name="faire_reservation">Faire une réservation</string>
+    <string name="date">Date</string>
+    <string name="fermer">Fermer</string>
+    <string name="reserver">Reserver</string>
+
+    <string name="maxPuissance">La puissance de l\'appareil dépasse la puissance maximale autorisée.</string>
+    <string name="dateSelect">L\'heure sélectionnée est en dehors des plages horaires autorisées.</string>
+    <string name="dateReserv">Emplacement réservé :</string>
+
+
+</resources>

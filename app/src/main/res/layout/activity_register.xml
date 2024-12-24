@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/textViewEventImage"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_logopower" />
+
+    <TextView
+        android:id="@+id/Inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewEventImage"
+        android:layout_marginTop="0dp"
+        android:text="@string/inscription"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/sNom"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Inscription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#A9A9A9"
+        android:hint="@string/nom" />
+
+    <EditText
+        android:id="@+id/sPrenom"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sNom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#A9A9A9"
+        android:hint="@string/prenom" />
+
+    <EditText
+        android:id="@+id/sEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#A9A9A9"
+        android:layout_below="@id/sPrenom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/sPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#A9A9A9"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/sPasswordC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#A9A9A9"
+        android:hint="@string/confirmer_mot_de_passe"
+        android:inputType="textPassword"/>
+
+
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/sPasswordC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background="@drawable/button_blue"
+        android:text="@string/suivant" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:text="@string/separer_ou"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/gotologin"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:background="@drawable/button_grey"
+        android:text="@string/deja_inscrit" />
+
+
+
+</RelativeLayout>

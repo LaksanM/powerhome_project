@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id= "@+id/nav_first"
+        android:icon="@drawable/ic_building"
+        android:title="Liste des habitats"/>
+
+    <item
+        android:id= "@+id/nav_second"
+        android:icon="@drawable/ic_home"
+        android:title="Mon habitat"/>
+
+    <item
+        android:id= "@+id/nav_third"
+        android:icon="@drawable/ic_notification"
+        android:title="Mes notifications"/>
+
+
+    <item
+        android:id= "@+id/nav_fourth"
+        android:icon="@drawable/ic_preference"
+        android:title="Mes préférences"/>
+
+    <item
+        android:id= "@+id/nav_fifth"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Profile"/>
+
+    <item
+        android:id= "@+id/nav_sixth"
+        android:icon="@drawable/ic_info"
+        android:title="À propos"/>
+    <item
+        android:id= "@+id/nav_seventh"
+        android:icon="@drawable/ic_logout"
+        android:title="Se déconnecter"/>
+</menu>
